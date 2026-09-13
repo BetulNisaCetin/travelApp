@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "travel_app",
+    "slug": "travel_app",
+    "owner": "betulcetin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "com.betulcetin.travelapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+       "package": "com.betulcetin.travelapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "878d88c4-c82c-4531-b5fb-e8c8a4a0349c"
+      }
+    }
+  }
+}
